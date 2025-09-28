@@ -37,7 +37,6 @@ Each comment is scored on 4 dimensions (0-5 scale):
 - **Specificity**: Concrete details and examples
 - **Stance Alignment**: Descriptive measure of agreement level
 
-**Overall Score**: `(helpfulness×4 + civility×3 + specificity×3) / 50 × 100` (0-100 scale)
 
 ## 📊 Key Metrics
 
