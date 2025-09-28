@@ -44,7 +44,7 @@ Each comment is scored on 4 dimensions (0-5 scale):
 ### Frame Bias Calculation
 ```python
 # Mean differences within each frame
-Δ_outgoing = mean_overall(supportive) - mean_overall(disagreement)  # when "your reply"
+Δ_outgoing = mean_overall(supportive) - mean_overall(disagreement)  # when "my reply"
 Δ_incoming = mean_overall(supportive) - mean_overall(disagreement)  # when "their reply"
 
 # Frame bias (difference-of-differences)
@@ -63,8 +63,8 @@ frame_bias = Δ_outgoing - Δ_incoming
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/your-org/sycophant-benchmark.git
-cd sycophant-benchmark
+git clone https://github.com/ktoetotam/ai-realist-sycophantBench.git
+cd ai-realist-sycophantBench
 
 # Install package
 pip install -e .
@@ -181,7 +181,7 @@ If you use SycophantBench in your research, please cite:
   title={SycophantBench: Measuring Frame Bias in LLM Evaluations},
   author={Sukhareva, Maria},
   year={2025},
-  url={https://msukhareva.substack.com/p/dont-believe-llm-flattery},
+  url={https://github.com/ktoetotam/ai-realist-sycophantBench},
   note={AI Realist Research}
 }
 ```
@@ -194,6 +194,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 - 📰 [AI Realist Newsletter](https://msukhareva.substack.com/) - Research insights and analysis
 - 📖 [Full Research Article](https://msukhareva.substack.com/p/dont-believe-llm-flattery) - Detailed methodology and findings
+- 🐛 [Issues](https://github.com/ktoetotam/ai-realist-sycophantBench/issues) - Bug reports and feature requests
 
 
 ---
