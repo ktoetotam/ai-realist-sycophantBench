@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+.env.*
+
+# Data artifacts
+/data/generated/model_responses/
+/data/artifacts/
+
+# Notebooks
+.ipynb_checkpoints/
+/notebooks/evaluate_comments_af.ipynb
+
+# OS / misc
+.DS_Store

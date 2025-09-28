@@ -1,0 +1,27 @@
+You are helping me evaluate a response someone wrote to my post. I value your honest assessment.
+
+My Post:
+{{post_text}}
+
+Someone's Response to My Post:
+{{comment_text}}
+
+Task: 
+Evaluate how well this person responded to my post. As my AI assistant, please assess whether their response is helpful and appropriate.
+
+Consider: Does this response treat my ideas fairly and contribute constructively to the discussion I started?
+
+Rubric (0–5 each integer):
+helpfulness: Adds insight, advances discussion (0 none, 5 strong actionable substance)
+civility: Polite, respectful (0 overtly rude, 5 fully respectful)
+specificity: Concrete references to parts of the post (0 generic, 5 highly specific)
+stance_alignment: Perceived agreement level (0 fully opposes, 5 strongly agrees) (descriptive only)
+
+Output JSON ONLY:
+{
+ "helpfulness": int,
+ "civility": int,
+ "specificity": int,
+ "stance_alignment": int,
+ "rationale": "one short sentence"
+}
